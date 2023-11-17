@@ -31,9 +31,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+  
     
 
-}
+
 
 .clock span{
     position:absolute;
@@ -55,6 +57,7 @@ body{
     height:8px;
     background-color: #ffffff;
     border-radius: 50%;
+    z-index:1
     
 }
 .hand{
@@ -71,4 +74,13 @@ body{
     background-color:var(--clr);
     border-radius: 8px;;
 
+}
+.text{
+    margin: 27rem 0rem 0rem -14rem;
+    color:rgb(181, 164, 141);
+    font-size: 20px;
+}
+
+.text p{
+    color:rgb(181, 164, 141);
 }
